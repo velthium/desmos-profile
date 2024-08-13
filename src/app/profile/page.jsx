@@ -139,7 +139,7 @@ function ProfilePage() {
           </form>
         ) : (
           <div>
-            <p>You don't have a Desmos profile yet. Please create one to proceed.</p>
+            <p>You don&apos;t have a Desmos profile yet. Please create one to proceed.</p>
             <button className="btn btn-primary">Acquire some DSM tokens first to create your Desmos profile.</button>
             <form className="align-left" onSubmit={handleSaveProfile}>
             <div className="mb-3">
